@@ -14,7 +14,7 @@
     }
     console.log(sortArr.sort(completed));
 
-    //输出一个返回为n位数在2-32之间的不重复的数组
+    //输出一个返回为n位数在2-32之间的不重复的数组c
     function backNumber(n) {
         if(typeof n !== "number" || n===0) return '';
         if(n>=32) return `位数不能大于${32}`;

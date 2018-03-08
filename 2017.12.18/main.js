@@ -3,7 +3,12 @@
     function sayHi() {
         console.log('Hello,' + arguments[0], arguments[1]);
     }
-    sayHi('杭三', 'sb');
+    sayHi('杭三', 'sb');   //  杭三  sb
+
+   /* function sayHi(name, type) {
+        console.log('Hello,' + name, type);
+    }
+    sayHi('杭三', 'sb');   //  杭三  sb*/
     //引用类型的引用
     let obj1 = {
         name: '张三',

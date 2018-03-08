@@ -51,5 +51,4 @@
     });
     books.year = 2005;
     console.log(books.edition);
-
 })();
